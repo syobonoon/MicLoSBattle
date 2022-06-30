@@ -1,0 +1,15 @@
+name: MicLoSBattle
+version: '${project.version}'
+main: net.syobonoon.plugin.miclosbattle.MicLoSBattle
+api-version: 1.15
+
+commands:
+  bstart:
+    description: You can start battle.
+    usage: /<command>
+  bstop:
+    description: You can stop battle.
+    usage: /<command>
+  breload:
+    description: You can reload battle config.
+    usage: /<command>
